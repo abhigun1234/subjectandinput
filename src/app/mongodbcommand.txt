@@ -1,0 +1,33 @@
+//use RestaurentDb 
+//db.restaurentmenu.find()
+//db.restaurentmenu.find({"itemname":"mutton fry"})
+//db.restaurentmenu.find(
+//{
+//    $or :[{"itemname":"dal fry"},{"price":"250"}]
+//    })
+//db.restaurentmenu.find(
+//{
+//    $or:[{"price":"350"},{"price":"250"}]
+//    })
+
+//db.restaurentmenu.find({},{"itemname":1,"_id":0})
+
+//limit skip sort
+//db.restaurentmenu.find()
+//db.restaurentmenu.find({},{"price":1,"_id":0}).limit(4)
+//db.restaurentmenu.find({},{"itemname":1,"_id":0}).skip(2)
+db.restaurentmenu.find({},{"itemname":1,"_id":0}).sort({"itemname":-1})
+//use mydbcustomer
+//for(i=0;i<1000000;i++)
+//{
+// db.custumer.insert({"emp_id":i,"name":"abhi"})  
+//}
+//show collections
+
+//db.custumer.ensureIndex({"emp_id":1});
+//use instituteMy
+//db.student.find({"name":"sunil"})
+
+//use meanstackbatchsept
+//show collections
+//db.createCollection("faculty")

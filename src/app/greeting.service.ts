@@ -17,3 +17,4 @@ export class GreetingService {
   //userName=new Subject<any>()
    userName=new BehaviorSubject("raj")
 }
+//https://github.com/abhigun1234/subjectandinput
