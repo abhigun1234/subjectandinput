@@ -7,17 +7,23 @@ import {GreetingService} from '..//greeting.service'
 })
 export class CompaComponent implements OnInit {
 userName="abhishek"
+name="ravi"
   constructor(private greet :GreetingService) {
-    this.greet.userName.subscribe(uname=>{
-      this.userName=uname
-    })
+    // this.greet.userName.subscribe(uname=>{
+    //   this.userName=uname
+    //   alert("subject called a")
+    // })
    }
 
   ngOnInit() {
   }
   brodCastMessage(uname)
   {
-   this.greet.userName.next(uname)
+  //  this.greet.userName.next(uname)
+  this.greet.userName.next(uname)
   }
+  // sendData(){
+  //   this.greet.setData(name)
+  // }
 
 }

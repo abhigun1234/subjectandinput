@@ -7,12 +7,16 @@ import {GreetingService} from '..//greeting.service'
 })
 export class CompbComponent implements OnInit {
   userName="abhishek"
+  name=""
   constructor(private greet :GreetingService) {
     this.greet.userName.subscribe(uname=>{
       this.userName=uname
+      alert("subject called b")
     })
    }
-
+  // getData(){
+  // this.name= this.greet.getData()
+  // }
   ngOnInit() {
   }
 

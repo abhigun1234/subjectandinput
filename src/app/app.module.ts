@@ -7,6 +7,7 @@ import { GreetingComponent } from './greeting/greeting.component';
 import { ChildComponent } from './child/child.component';
 import { CompaComponent } from './compa/compa.component';
 import { CompbComponent } from './compb/compb.component';
+import { CompcComponent } from './compc/compc.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CompbComponent } from './compb/compb.component';
     GreetingComponent,
     ChildComponent,
     CompaComponent,
-    CompbComponent
+    CompbComponent,
+    CompcComponent
   ],
   imports: [
     BrowserModule,
