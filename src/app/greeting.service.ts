@@ -19,7 +19,7 @@ export class GreetingService {
   public greet() 
   {
 
-    return this.httpClient.get('http://rest-service.guides.spring.io/greeting')
+    return this.httpClient.get('https://jsonplaceholder.typicode.com/todos/1')
   }
   // userName=new Subject<any>()
    userName=new BehaviorSubject("rajshri")
