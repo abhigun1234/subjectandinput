@@ -9,12 +9,12 @@ export class GreetingService {
   constructor(private httpClient:HttpClient) { }
   
 
-  // getData(){
-  //   return this.data;
-  // }
-  // setData(item){
-  // this.data=item
-  // }
+  getData(){
+    return this.data;
+  }
+  setData(item){
+  this.data=item
+  }
 
   public greet() 
   {
@@ -22,6 +22,6 @@ export class GreetingService {
     return this.httpClient.get('https://jsonplaceholder.typicode.com/todos/1')
   }
   // userName=new Subject<any>()
-   userName=new BehaviorSubject("rajshri")
+   userName=new BehaviorSubject("shivangi")
 }
 //https://github.com/abhigun1234/subjectandinput

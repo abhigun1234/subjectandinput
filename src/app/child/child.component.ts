@@ -14,7 +14,7 @@ export class ChildComponent implements OnInit {
   }
   sendData()
   {
-    this.childEvent.emit('emmiting data to parent componet')
+    this.childEvent.emit('Hello shivangi welcome to justolearn')
   }
 
 }

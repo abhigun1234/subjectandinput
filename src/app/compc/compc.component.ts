@@ -13,6 +13,7 @@ export class CompcComponent implements OnInit {
     this.greet.userName.subscribe(data=>{
       console.log("data")
       this.name=data;
+      alert("subject called of c")
     })
   }
 

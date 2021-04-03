@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ConsoleReporter } from 'jasmine';
 import {GreetingService} from '..//greeting.service'
 @Component({
   selector: 'app-compa',
