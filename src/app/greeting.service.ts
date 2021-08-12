@@ -21,7 +21,7 @@ export class GreetingService {
 
     return this.httpClient.get('https://jsonplaceholder.typicode.com/todos/1')
   }
-  // userName=new Subject<any>()
-   userName=new BehaviorSubject("shivangi")
+  userName=new Subject<any>()
+  //  userName=new BehaviorSubject("shivangi")
 }
 //https://github.com/abhigun1234/subjectandinput

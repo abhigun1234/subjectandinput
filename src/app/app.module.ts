@@ -9,6 +9,7 @@ import { CompaComponent } from './compa/compa.component';
 import { CompbComponent } from './compb/compb.component';
 import { CompcComponent } from './compc/compc.component';
 import { CompdComponent } from './compd/compd.component';
+import { CompfComponent } from './compf/compf.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CompdComponent } from './compd/compd.component';
     CompaComponent,
     CompbComponent,
     CompcComponent,
-    CompdComponent
+    CompdComponent,
+    CompfComponent
   ],
   imports: [
     BrowserModule,
