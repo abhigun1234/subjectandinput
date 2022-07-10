@@ -12,6 +12,9 @@ export class GreetingService {
   getData(){
     return this.data;
   }
+  getProduct(){
+    return this.httpClient.get("http://localhost:3000/product/")
+  }
   setData(item){
   this.data=item
   }

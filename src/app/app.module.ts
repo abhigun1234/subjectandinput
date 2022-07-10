@@ -10,6 +10,10 @@ import { CompbComponent } from './compb/compb.component';
 import { CompcComponent } from './compc/compc.component';
 import { CompdComponent } from './compd/compd.component';
 import { CompfComponent } from './compf/compf.component';
+import { GComponent } from './g/g.component';
+import { CompGComponent } from './comp-g/comp-g.component';
+import { ProductComponent } from './product/product.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { CompfComponent } from './compf/compf.component';
     CompbComponent,
     CompcComponent,
     CompdComponent,
-    CompfComponent
+    CompfComponent,
+    GComponent,
+    CompGComponent,
+    ProductComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,

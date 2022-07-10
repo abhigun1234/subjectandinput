@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'httpcommunicationdemo';
-  name="ashwini"
+  name="alka"
   public message=""
 }
